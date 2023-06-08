@@ -1,0 +1,1454 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Display the Paints and colours",
+        "description": "",
+        "id": "colour-catalogue;display-the-paints-and-colours",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5780011600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the Home Page of Asian Paints",
+            "match": {
+              "location": "Colour_Catalogue.user_is_on_the_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2176792000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User hover the mouse on paints and colour",
+            "match": {
+              "location": "Colour_Catalogue.user_hover_the_mouse_on_paints_and_colour()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16267167400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Paints and colours list is displayed",
+            "match": {
+              "location": "Colour_Catalogue.paints_and_colours_list_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Colour_Catalogue"
+          },
+          {
+            "name": "@Display_the_list"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Add the Paint Product to the Wishlist",
+        "description": "",
+        "id": "colour-catalogue;add-the-paint-product-to-the-wishlist",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4145723200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is on the paints and colours List",
+            "match": {
+              "location": "Colour_Catalogue.user_is_on_the_paints_and_colours_List()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3660854700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on the colour catalogue",
+            "match": {
+              "location": "Colour_Catalogue.user_click_on_the_colour_catalogue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1173082500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on colour",
+            "match": {
+              "location": "Colour_Catalogue.user_click_on_colour()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2059155500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on wishlist icon",
+            "match": {
+              "location": "Colour_Catalogue.click_on_wishlist_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40790696900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Paint catalogue is added to the wishlist",
+            "match": {
+              "location": "Colour_Catalogue.paint_catalogue_is_added_to_the_wishlist()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Colour_Catalogue"
+          },
+          {
+            "name": "@Add_product_to_wishlist"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Log Out of the Application",
+        "description": "",
+        "id": "colour-catalogue;log-out-of-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5230360300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is on the Home Page of Asian Paints",
+            "match": {
+              "location": "Colour_Catalogue.user_is_on_the_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 85238200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click on the profile icon",
+            "match": {
+              "location": "Colour_Catalogue.user_click_on_the_profile_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78184800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click on sign out",
+            "match": {
+              "location": "Colour_Catalogue.click_on_sign_out()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16267816100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Account is Log Out Successfully",
+            "match": {
+              "location": "Colour_Catalogue.account_is_Log_Out_Successfuly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Colour_Catalogue"
+          },
+          {
+            "name": "@Log_Out"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Buy the paint product",
+        "description": "",
+        "id": "colour-catalogue;buy-the-paint-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5684374100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User is on the Home Page of Asian Paints",
+            "match": {
+              "location": "Colour_Catalogue.user_is_on_the_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20058398900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User login to the application",
+            "match": {
+              "location": "Colour_Catalogue.user_login_to_the_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3600622900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click on Wishlist icon",
+            "match": {
+              "location": "Colour_Catalogue.click_on_Wishlist_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65941200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User click on the product",
+            "match": {
+              "location": "Colour_Catalogue.user_click_on_the_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2723079500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User enter the pincode",
+            "match": {
+              "location": "Colour_Catalogue.user_enter_the()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1143933800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click on buy now button",
+            "match": {
+              "location": "Colour_Catalogue.click_on_buy_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3344650800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User able to see the delivery address page",
+            "match": {
+              "location": "Colour_Catalogue.user_able_to_see_the_delivery_address_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Colour_Catalogue"
+          },
+          {
+            "name": "@Buy_Now"
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Filter the products",
+        "description": "",
+        "id": "colour-catalogue;filter-the-products",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5359321800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User is on the Colours Catalogue page",
+            "match": {
+              "location": "Colour_Catalogue.user_is_on_the_Colours_Catalogue_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114002800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User apply the filters",
+            "match": {
+              "location": "Colour_Catalogue.user_apply_the_filters()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18476250400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User able to see the filtered products",
+            "match": {
+              "location": "Colour_Catalogue.user_able_to_see_the_filtered_products()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Colour_Catalogue"
+          },
+          {
+            "name": "@Filter_the_Products"
+          }
+        ]
+      },
+      {
+        "line": 53,
+        "name": "Enquire the Product",
+        "description": "",
+        "id": "colour-catalogue;enquire-the-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5030875300,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User is on the Home Page of Asian Paints",
+            "match": {
+              "location": "Colour_Catalogue.user_is_on_the_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 177267600,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User Enters the Name Sundar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sundar",
+                  "offset": 21
+                }
+              ],
+              "location": "Colour_Catalogue.user_Enters_the_Name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1131443900,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User Enter Email sundarraj1234@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sundarraj1234@gmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "Colour_Catalogue.user_Enter_Email(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1174552900,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User Enter Mobile Number 9876543212",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9876543212",
+                  "offset": 25
+                }
+              ],
+              "location": "Colour_Catalogue.user_Enter_Mobile_Number(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1163625900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User Enter Pincode 639001",
+            "match": {
+              "arguments": [
+                {
+                  "val": "639001",
+                  "offset": 19
+                }
+              ],
+              "location": "Colour_Catalogue.user_Enter_Pincode(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3217980500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Click on Enquire Now button",
+            "match": {
+              "location": "Colour_Catalogue.click_on_Enquire_Now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21134359600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Successful Completion message is displayed",
+            "match": {
+              "location": "Colour_Catalogue.successful_Completion_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Colour_Catalogue"
+          },
+          {
+            "name": "@Enquiry_Now"
+          }
+        ]
+      },
+      {
+        "line": 54,
+        "name": "Enquire the Product",
+        "description": "",
+        "id": "colour-catalogue;enquire-the-product;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6554513200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User is on the Home Page of Asian Paints",
+            "match": {
+              "location": "Colour_Catalogue.user_is_on_the_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 191787300,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User Enters the Name Raj",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Raj",
+                  "offset": 21
+                }
+              ],
+              "location": "Colour_Catalogue.user_Enters_the_Name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1125510600,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User Enter Email rajsundar4321@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rajsundar4321@gmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "Colour_Catalogue.user_Enter_Email(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1167356300,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User Enter Mobile Number 8976543213",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8976543213",
+                  "offset": 25
+                }
+              ],
+              "location": "Colour_Catalogue.user_Enter_Mobile_Number(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1177260500,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User Enter Pincode 534305",
+            "match": {
+              "arguments": [
+                {
+                  "val": "534305",
+                  "offset": 19
+                }
+              ],
+              "location": "Colour_Catalogue.user_Enter_Pincode(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3197173500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Click on Enquire Now button",
+            "match": {
+              "location": "Colour_Catalogue.click_on_Enquire_Now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21299523400,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Successful Completion message is displayed",
+            "match": {
+              "location": "Colour_Catalogue.successful_Completion_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Colour_Catalogue"
+          },
+          {
+            "name": "@Enquiry_Now"
+          }
+        ]
+      },
+      {
+        "line": 68,
+        "name": "Enquire the Product with Invalid details",
+        "description": "",
+        "id": "colour-catalogue;enquire-the-product-with-invalid-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5282590100,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "User is on the Home Page of Asian Paints",
+            "match": {
+              "location": "Colour_Catalogue.user_is_on_the_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 190772400,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "User Enters the Name Sundarraj",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sundarraj",
+                  "offset": 21
+                }
+              ],
+              "location": "Colour_Catalogue.user_Enters_the_Name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1126158300,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User Enter Email sundarraj3243@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sundarraj3243@gmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "Colour_Catalogue.user_Enter_Email(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1175016700,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User Enter Mobile Number 7796543212",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7796543212",
+                  "offset": 25
+                }
+              ],
+              "location": "Colour_Catalogue.user_Enter_Mobile_Number(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1166332600,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "User Enter Pincode 639",
+            "match": {
+              "arguments": [
+                {
+                  "val": "639",
+                  "offset": 19
+                }
+              ],
+              "location": "Colour_Catalogue.user_Enter_Pincode(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3095906000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Click on Enquire Now button",
+            "match": {
+              "location": "Colour_Catalogue.click_on_Enquire_Now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16557423300,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Error message is displayed",
+            "match": {
+              "location": "Colour_Catalogue.error_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Colour_Catalogue"
+          },
+          {
+            "name": "@Enquiry_Now_Unsuccessful"
+          }
+        ]
+      }
+    ],
+    "name": "Colour Catalogue",
+    "description": "",
+    "id": "colour-catalogue",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Colour Catalogue.feature",
+    "tags": [
+      {
+        "name": "@Colour_Catalogue",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "View Details of One Exterior Paint",
+        "description": "",
+        "id": "exterior-paints;view-details-of-one-exterior-paint",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8802084100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the Exterior paints page",
+            "match": {
+              "location": "ExteriorPaints.user_is_on_the_Exterior_paints_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4982244600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Wall textures category",
+            "match": {
+              "location": "ExteriorPaints.user_click_on_Wall_textures_category()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4764352100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on View Catalogue of product",
+            "match": {
+              "location": "ExteriorPaints.user_click_on_View_Catalogue_of_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4303202300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User select the colour",
+            "match": {
+              "location": "ExteriorPaints.user_select_the_colour()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16331029800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User able to see the description of the product",
+            "match": {
+              "location": "ExteriorPaints.user_able_to_see_the_description_of_the_product()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Exterior_Paints"
+          },
+          {
+            "name": "@Select_Exterior_paint"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Search the Products",
+        "description": "",
+        "id": "exterior-paints;search-the-products;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7378248300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is in the Home Page",
+            "match": {
+              "location": "ExteriorPaints.user_is_in_the_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86814200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click on search box",
+            "match": {
+              "location": "ExteriorPaints.user_click_on_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87736800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter the product name Ultima floor guard",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ultima floor guard",
+                  "offset": 28
+                }
+              ],
+              "location": "ExteriorPaints.user_enter_the_Ultima_floor_guard(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2985601600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on search button",
+            "match": {
+              "location": "ExteriorPaints.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21281236700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User able to see the searched product",
+            "match": {
+              "location": "ExteriorPaints.user_able_to_see_the_searched_product()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Exterior_Paints"
+          },
+          {
+            "name": "@Search_the_Products"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Search the Products",
+        "description": "",
+        "id": "exterior-paints;search-the-products;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4735126700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is in the Home Page",
+            "match": {
+              "location": "ExteriorPaints.user_is_in_the_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 81148900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click on search box",
+            "match": {
+              "location": "ExteriorPaints.user_click_on_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80154600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter the product name Apex floor guard",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Apex floor guard",
+                  "offset": 28
+                }
+              ],
+              "location": "ExteriorPaints.user_enter_the_Ultima_floor_guard(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1725081200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on search button",
+            "match": {
+              "location": "ExteriorPaints.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20566483900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User able to see the searched product",
+            "match": {
+              "location": "ExteriorPaints.user_able_to_see_the_searched_product()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Exterior_Paints"
+          },
+          {
+            "name": "@Search_the_Products"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Search the Products using invalid product name",
+        "description": "",
+        "id": "exterior-paints;search-the-products-using-invalid-product-name;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5028033800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User is in the Home Page",
+            "match": {
+              "location": "ExteriorPaints.user_is_in_the_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 76639100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on search box",
+            "match": {
+              "location": "ExteriorPaints.user_click_on_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64056200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User enter the product name 1122334455",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1122334455",
+                  "offset": 28
+                }
+              ],
+              "location": "ExteriorPaints.user_enter_the_Ultima_floor_guard(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1872958900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Click on search button",
+            "match": {
+              "location": "ExteriorPaints.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19495386500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User able to see the error message",
+            "match": {
+              "location": "ExteriorPaints.user_able_to_see_the_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Exterior_Paints"
+          },
+          {
+            "name": "@Search_the_Invalid_Products"
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Search the Products using invalid product name",
+        "description": "",
+        "id": "exterior-paints;search-the-products-using-invalid-product-name;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5369941700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User is in the Home Page",
+            "match": {
+              "location": "ExteriorPaints.user_is_in_the_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 77960200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on search box",
+            "match": {
+              "location": "ExteriorPaints.user_click_on_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63746400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User enter the product name Capgemini",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Capgemini",
+                  "offset": 28
+                }
+              ],
+              "location": "ExteriorPaints.user_enter_the_Ultima_floor_guard(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1888091000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Click on search button",
+            "match": {
+              "location": "ExteriorPaints.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19432601000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User able to see the error message",
+            "match": {
+              "location": "ExteriorPaints.user_able_to_see_the_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Exterior_Paints"
+          },
+          {
+            "name": "@Search_the_Invalid_Products"
+          }
+        ]
+      }
+    ],
+    "name": "Exterior Paints",
+    "description": "",
+    "id": "exterior-paints",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Exterior Paints.feature",
+    "tags": [
+      {
+        "name": "@Exterior_Paints",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Navigate to the Calculator page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5214279100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user in the Home page",
+            "match": {
+              "location": "PaintBudgetCalculator.user_in_the_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2157332900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User hover the mouse on Paints and Colours",
+            "match": {
+              "location": "PaintBudgetCalculator.user_hover_the_mouse_on_Paints_and_Colours()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2864661700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Paint Budget Calculator",
+            "match": {
+              "location": "PaintBudgetCalculator.click_on_Panit_Budget_Calculator()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 272900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Calculator page is Visible",
+            "match": {
+              "location": "PaintBudgetCalculator.calculator_page_is_Visible()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Quick Calculator",
+        "description": "",
+        "id": "paint-budget-calculator;quick-calculator",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 327278000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User select the Specification of Home",
+            "match": {
+              "location": "PaintBudgetCalculator.user_select_the_Specification_of_Home()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2115266900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enter the Carpet Area",
+            "match": {
+              "location": "PaintBudgetCalculator.user_enter_the_Carpet_Area()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1077748000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on Calculate Now Button",
+            "match": {
+              "location": "PaintBudgetCalculator.click_on_Calculate_Now_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18366475600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User able to see litres of Paint and Price of Paint",
+            "match": {
+              "location": "PaintBudgetCalculator.user_able_to_see_litres_of_Paint_and_Price_of_Paint()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paint_Budget_Calculator"
+          },
+          {
+            "name": "@Quick_Calculator"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigate to the Calculator page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5981160600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user in the Home page",
+            "match": {
+              "location": "PaintBudgetCalculator.user_in_the_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2181353500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User hover the mouse on Paints and Colours",
+            "match": {
+              "location": "PaintBudgetCalculator.user_hover_the_mouse_on_Paints_and_Colours()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2468867500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Paint Budget Calculator",
+            "match": {
+              "location": "PaintBudgetCalculator.click_on_Panit_Budget_Calculator()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 239900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Calculator page is Visible",
+            "match": {
+              "location": "PaintBudgetCalculator.calculator_page_is_Visible()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Advanced Calculator",
+        "description": "",
+        "id": "paint-budget-calculator;advanced-calculator",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2257876600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User Select the advanced calculator",
+            "match": {
+              "location": "PaintBudgetCalculator.user_Select_the_advanced_calculator()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1904606100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enter the measurements of the home",
+            "match": {
+              "location": "PaintBudgetCalculator.user_enter_the_measurements_of_the_home()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 878984100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click on Calculate Button",
+            "match": {
+              "location": "PaintBudgetCalculator.click_on_Calculate_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16843766500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User able to see the total price to paint their home",
+            "match": {
+              "location": "PaintBudgetCalculator.user_able_to_see_the_total_price_to_paint_their_home()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paint_Budget_Calculator"
+          },
+          {
+            "name": "@Advanced_Calculator"
+          }
+        ]
+      }
+    ],
+    "name": "Paint Budget Calculator",
+    "description": "",
+    "id": "paint-budget-calculator",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Paint Budget Calculator.feature",
+    "tags": [
+      {
+        "name": "@Paint_Budget_Calculator",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
